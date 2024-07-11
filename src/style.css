@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+.font-gloria {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gambar1dan2 {
+    width: 600px;
+    height: 600px;
+    flex-shrink: 0;
+}
+.content{
+    font-size: small;
+}
+.content1{
+    font-size: 24px;
+}
+
+.judulcontent{
+    font-size:larger;
+}
+
+.fotospesialedition{
+    width: 779px;
+    height: 694px;
+    flex-shrink: 0;   
+}
+
+.textspesial{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desktxtspesial {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttonkotak{
+    background-color: #ddd;
+    padding: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    display: block;
+    background-color: #bbb;
+    margin: 10px;
+    padding: 10px
+}
+
+.textfooter{
+color: #FFF;
+font-size: 24px;
+font-weight: 400;
+}
+
+.gambarfooter{
+    width: 428px;
+    height: 438px;
+    flex-shrink: 0;
+}
+
+.bayang{
+    filter: drop-shadow(10px 7px 10px black);
+}
+
+.tentangkami{
+    color:#22333B;
+font-family: "Gloria Hallelujah";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* test */
+.bold {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  #div1,
+  #div3 {
+    height: 80px;
+    position: relative;
+    padding-left: 5px;
+  }
+  
+  #div2 {
+    z-index: 1;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    text-align: center;
+  }
+  
+.sizefoto {
+    height:603px ;
+    width:430px ;
+}
+
+.sizefotomenu {
+width: 295.98px;
+height: 304px;
+flex-shrink: 0;
+}
+
+.kotakan {
+   
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.kotakan1 {
+   
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.texticecoffee{
+    color: var(--White, #FFF);
+font-family: "Cera Round Pro DEMO";
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 50px; /* 125% */
+
+
+}
